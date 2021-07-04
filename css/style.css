@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* body {
+	font-family: 'poppins', sans-serif;
+	box-sizing: border-box;
+
+	
+	
+}
+
+
+.container {
+	max-width: 100%;
+	height: auto;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+ul {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+
+li {
+	display: flex;
+	margin-left: 10px;
+	list-style-type: none;
+	align-items: center;
+
+
+}
+
+.nav-header__home {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+.logo {
+
+	width: 310px;
+	font-family: 'play', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	z-index: 1;
+	
+	
+	
+
+}
+
+.hero {
+	height: 500px;
+	width: 100%;
+	background-color: #F6F6F6;
+}
+
+.hero_sign {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+}
+
+.hero-sign__text {
+	font-family: 'play', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	padding: 10px;
+	border: 3px solid black;
+
+}
+
+
+.feature__product {
+	display: flex;
+	justify-content: center;
+	height: 500px;
+}
+
+.features-product__image {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.features-product__description {
+	font-weight: 500;
+	letter-spacing: 5px;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.rooms__selector {
+	
+
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 400px;
+	width: 100%;
+	
+	justify-content: center;
+	
+
+}
+
+.room1, .room2, .room3 {
+
+	width: 400px;
+	min-height: 400px;
+	position: relative; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* filter: grayscale(500%);
+	filter: brightness(60%); */
+
+	
+}
+
+.room1__title {
+
+	position: absolute; 
+	font-family: 'poppins', sans-serif;
+	font-size: 40px;
+	font-weight: 500;
+	
+}
+
+.room_btn {
+
+	margin-top-top: 5px;
+	text-align: center;
+	border: 3px solid black;
+	
+	
+
+	
+}
+
+.room2 {
+	width: 400px;
+	height: 400px;
+	
+	background-color: orange;
+}
+
+.room3 {
+	width: 400px;
+	height: 400px;
+	clear: both;
+	
+	
+}
+
+.customer__respons {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.customer-respons__return {
+	width: 60%;
+	height: 200px;
+	background-color: #F6F6F6;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.customer-response__title {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 10px;
+}
+
+.link-item {
+	color: black;
+	text-decoration: none;
+}
+
+
+
+
+/* footer */
+
+
+
+.footer {
+	width: 100%;
+	height: 170px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.box1 {
+	width: 350px;
+	height: 170px;
+	
+}
+
+.ft-head {
+	margin-left: 10px;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.ft-link {
+	font-family: 'open-sans', sans-serif
+	font-size: 15px;
+
+}
+
+.ft-s {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	justify-content: space-around;
+}
+
+
+/* media quieries - IPAD other tablets from 768 to 1024  */
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+
+{
+	/* looks perfect too me! */
+}
+
+/* media quieries - Iphone 6/7/8 screens from 375 to 667  */
+
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+
+
+{
+
+	.customer-respons__return {
+		width: 100%;
+	}.footer {
+		width: 70%;
+	}.ft-head {
+		width: 100%;
+		font-size: 16px;
+	}a {
+		font-size: 13px;
+	}
+
+}
